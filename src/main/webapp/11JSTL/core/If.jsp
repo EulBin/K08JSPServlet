@@ -94,8 +94,9 @@
 	 	<c:if test="${not result }">
 	 		아이디와 비번을 확인하세요.
 	 	</c:if>
-	</c:if> 
-	 
+	</c:if>
+	
+	
 	 
 	 
 	 
