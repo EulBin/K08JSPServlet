@@ -38,7 +38,7 @@ public class BoardPage {
 //            pagingStr += "<a href='" + reqUrl + "?pageNum=" + (pageTemp - 1)
 //                         + "'>[이전 블록]</a>";
             
-            pagingStr += "<li class=\"page-item\"><a class='page-link' href=\"#\">이전</a></li>";
+            pagingStr += "<li class='page-item'><a class='page-link' href='"+reqUrl+"'>이전</a></li>";
         }
 
         /*

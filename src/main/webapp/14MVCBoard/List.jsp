@@ -77,8 +77,7 @@
             <td>
             <!-- 첨부파일이 있을때만 다운로드 링크를 출력함. -->
                 <c:if test="${not empty row.ofile }">
-                	<a href="../mvcboard/download.do?ofile=${row.ofile }
-                		&sfile=${row.sfile}&idx=${row.idx}">
+                	<a href="../mvcboard/download.do?ofile=${row.ofile }&sfile=${row.sfile}&idx=${row.idx}">
                 	[Down]</a>
                 </c:if>
             </td>
@@ -87,7 +86,7 @@
 	</c:otherwise>
 </c:choose>
     </table>
-   
+   	<!-- 하단 메뉴(바로가기, 글쓰기) -->
     <table border="1" width="90%">
         <tr align="center">
             <td>
