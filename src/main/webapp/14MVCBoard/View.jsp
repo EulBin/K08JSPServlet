@@ -30,6 +30,15 @@
     <tr>
         <td>내용</td>
         <td colspan="3" height="100">${dto.content }</td>
+        <br />
+        <c:chose>
+        	<c:when test="${fileType='image' }">
+        		<img src="../Uploads/${dto.sfile }" alt="" />
+        	</c:when>
+			<c:when test="${fileType='image' }">
+			    <audio src="../Uploads/${dto.sfile }" controls></audio>
+        	</c:when>
+        </c:chose>
     </tr> 
     <tr>
         <td>첨부파일</td>
